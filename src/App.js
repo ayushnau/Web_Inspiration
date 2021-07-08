@@ -30,31 +30,23 @@ function App() {
             return(
               <>
                <Intro/>
-               <Webdesigns/>
-               <Footer/>
-            
-              
-             
+               <Webdesigns/> 
               </>
             )
           }}>
           </Route>
           <Route exact path="/Blog">
             <Blog/>
+    
+
           </Route>
           <Route exact path="/Login">
               <Login/>
             </Route>
         </Switch>
-
-       
-     
-     
-     
-
+        <Footer/>
     </Router>
     </>
-  )
-}
+  )}
+  export default App;
 
-export default App;

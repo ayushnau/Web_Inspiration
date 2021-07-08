@@ -26,7 +26,7 @@ const Header = () => {
      <div className="header">
         <div className="firstpart">
             <ul className="listheader">
-                <li className="firstinlist"><a href="#">WebInspiration</a> </li>
+                <li className="firstinlist"><a href="/">WebInspiration</a> </li>
 
             </ul>
         </div>
@@ -54,11 +54,11 @@ const Header = () => {
                 </div>
 
                 <li className="toggledata" style={{display}}><a href="#">WordpressThemes</a></li>
-                <li className="toggledata" style={{display}}><a href="#">blog</a></li>
+                <li className="toggledata" style={{display}}><a href="/blog">blog</a></li>
                 <li className="toggledata" style={{display}}><a href="#">💖EditorPicks</a></li>
             </ul>
             <ul className="thebuttoninsecondpart toggledata" style={{display}}>
-                <li><a href="/Login">
+                <li><a href="#">
                         <button className="loginbutton">
 
                             <i className="icon ion-ios-person"></i>

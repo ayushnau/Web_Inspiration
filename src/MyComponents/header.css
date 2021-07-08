@@ -1,0 +1,170 @@
+
+.header{
+    display: flex;
+    
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-image: linear-gradient(to right ,lightblue,lightgreen);
+  flex: 0 0 10%;
+}
+.secondpart{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.listheader{
+    list-style-type: none;
+}
+.listheader a{
+    
+    font-size: 2em;
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.thelistinsecondpart{
+  display: flex;
+    font-size: 1.5em;
+    flex-basis: 80%;
+    padding: 0px;
+    justify-content: space-between;
+}
+.thelistinsecondpart a{
+    text-decoration: none;
+    margin: 0 auto;
+}
+.thelistinsecondpart li{
+    
+    list-style-type: none;
+}
+.thebuttoninsecondpart{
+    flex-basis: 10%;
+    list-style-type: none;
+    padding: 0px;
+   
+
+}
+.fa-caret-down{
+    margin: 0px;
+}
+.thelistinsecondpart li a{
+    position: relative;
+}
+i.fas.fa-caret-down:before {
+    position: absolute;
+   top: 5px;
+   right: -14px;
+}
+.header .firstpart a,.header .secondpart a{
+    color: white;
+}
+.loginbutton{
+    
+    font-weight: 700;
+    background: rgba(255,255,255,.3);
+    color: #fff;
+    padding: 1em 1em;
+   border: none;
+   font-family: 'Inter',Helvetica,Arial,sans-serif;
+   
+}
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+.loginbutton::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    margin: 3px;
+}
+.Navbar-toggle{
+    align-self: flex-end;
+    position: absolute;
+    top: 2em;
+    cursor: pointer;
+    margin-right: 1em;
+    display: none;
+
+}
+
+
+@media (max-width: 1215px)
+{
+    .listheader li a{
+        font-size: 1.8em;
+    }
+    .thelistinsecondpart li a ,.loginbutton {
+        font-size: .9em;
+    }
+}
+@media (max-width:940px)
+{
+    .header{
+        flex-direction: column;
+    }
+    .secondpart{
+        display: none;
+        flex-direction: column;
+    }
+    .thelistinsecondpart{
+        display: none;
+        flex-direction: column;
+    }
+    .thelistinsecondpart li {
+        padding: .4em 1.8em;
+    }
+    .thebuttoninsecondpart li{
+      padding-left: 1.8em;
+    }
+    .Navbar-toggle{
+        display: initial;
+    }
+}
+
+.trycss{
+    display: flex;
+}
+
+
+.dropdownmenu{
+    display: none;
+    position: absolute;
+    top: 2.5em;
+    left:18em;
+    background: rgba(0,0,0,.3);
+    padding: .8em;
+    background: rgb(123 185 182);
+}
+.dropdownmenu:hover{
+    display: block;
+}
+ .inspiration:hover +.dropdownmenu{
+   display: block;
+
+ }
+
+.dropdownmenu ul  {
+   padding: 0px;
+   background: rgb(123 185 182);
+}
+.dropdownmenu ul li a {
+    color: black;
+   
+}
+.dropdownmenu ul li{
+   
+    margin: 4px;
+    padding: .7em;
+}
+.dropdownmenu ul li:hover{
+    background: rgb(0 239 255 / 30%);
+    ;
+}
+

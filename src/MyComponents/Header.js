@@ -27,7 +27,7 @@ const Header = () => {
      <div className="header">
         <div className="firstpart">
             <ul className="listheader">
-                <li className="firstinlist"><Link to={process.env.PUBLIC_URL + '/Web_Inspiration'}>WebInspiration</Link> </li>
+                <li className="firstinlist"><Link to={process.env.PUBLIC_URL + '/'}>WebInspiration</Link> </li>
 
             </ul>
         </div>

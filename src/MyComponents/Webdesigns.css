@@ -88,3 +88,11 @@ flex-direction: column;
 .imgclass:hover  .hover{
     display: flex;
 }
+
+
+@media (max-width:534px)
+{
+    .masterfordesigns{
+        margin: 0;
+    }
+}

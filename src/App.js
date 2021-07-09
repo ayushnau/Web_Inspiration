@@ -26,7 +26,7 @@ function App() {
     <Router>
         <Header/>
           <Switch>
-              <Route exact path={process.env.PUBLIC_URL + '/'}render={()=>{
+              <Route exact path="/"render={()=>{
                   return(
                     <>
                     <Intro/>

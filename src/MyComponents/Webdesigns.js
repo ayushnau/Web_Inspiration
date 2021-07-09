@@ -15,6 +15,7 @@ const Cardtemplate = (props) => {
                     <div className="middlediv">
                         <Heart></Heart>
                         <Plus></Plus>
+                        <i class="far fa-heart"></i>
 
                     </div>
                     <div className="rightdiv">

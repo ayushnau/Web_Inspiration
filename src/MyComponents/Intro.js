@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Intro = () => {
     return (
         <>
@@ -11,14 +12,14 @@ const Intro = () => {
 
                 </div>
                 <div className="wrapperoftwocontainer">
-                    <a href="#" className="firstimage"><img src="https://www.webdesign-inspiration.com/images/ads/elementor-200.png" alt="image" target="__new" /></a>
-                    <a href="#" className="secondimage"><img src="https://www.webdesign-inspiration.com/images/ads/divi-200.png" alt="image" /></a>
+                    <Link to="#" className="firstimage"><img src="https://www.webdesign-inspiration.com/images/ads/elementor-200.png" alt="image" target="__new" /></Link>
+                    <Link to="#" className="secondimage"><img src="https://www.webdesign-inspiration.com/images/ads/divi-200.png" alt="image" /></Link>
                 </div>
             </div>
             <div>
                 <div className="thelastline">
                 The most popular Wordpress page builder : Elementor →
-                  <div className="thisistryitforfree">  <a href="#" > Try it for free</a></div>
+                  <div className="thisistryitforfree">  <Link to="#" > Try it for free</Link></div>
 
             </div>
             </div>

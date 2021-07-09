@@ -25,21 +25,23 @@ function App() {
     <>
     <Router>
         <Header/>
-          <Route exact path="/"render={()=>{
-              return(
-                <>
-                <Intro/>
-                <Webdesigns/> 
-                </>
-              )
-            }}>
-          </Route>
-          <Route exact path="/Blog">
-            <Blog/>
-          </Route>
-          <Route exact path="/Login">
-            <Login/>
-          </Route>
+          <Switch>
+              <Route exact path="/"render={()=>{
+                  return(
+                    <>
+                    <Intro/>
+                    <Webdesigns/>
+                    </>
+                  )
+                }}>
+              </Route>
+              <Route exact path="/Blog">
+                <Blog/>
+              </Route>
+              <Route exact path="/Login">
+                <Login/>
+              </Route>
+          </Switch>
         <Footer/>
     </Router>
     </>

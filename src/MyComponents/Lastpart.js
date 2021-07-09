@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navbarinoutro=()=>
 {
     return(
@@ -104,8 +105,8 @@ const Last=()=>
 
           <div className="lastline">
 
-             Most Popular blog posts: <span><a href="#">Cheapest Wordpress Hosting - Divi Copoun
-                 </a> </span> 
+             Most Popular blog posts: <span><Link to="#">Cheapest Wordpress Hosting - Divi Copoun
+                 </Link> </span> 
           </div>
 
 

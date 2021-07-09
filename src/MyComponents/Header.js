@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -26,7 +27,7 @@ const Header = () => {
      <div className="header">
         <div className="firstpart">
             <ul className="listheader">
-                <li className="firstinlist"><a href="/">WebInspiration</a> </li>
+                <li className="firstinlist"><Link to="/">WebInspiration</Link> </li>
 
             </ul>
         </div>
@@ -40,32 +41,32 @@ const Header = () => {
 
 
 
-                <li className="inspiration" style={{display}}><a href="#"> Inspiration
-                        <i className="fas fa-caret-down"></i></a></li>
+                <li className="inspiration" style={{display}}><Link to="#"> Inspiration
+                        <i className="fas fa-caret-down"></i></Link></li>
                 <div className="dropdownmenu">
                     <ul>
 
-                        <li><a href="#"> WebsiteType</a></li>
-                        <li><a href="#"> Industry</a></li>
-                        <li><a href="#"> Styles</a></li>
-                        <li><a href="#"> Colors</a></li>
+                        <li><Link to="#"> WebsiteType</Link></li>
+                        <li><Link to="#"> Industry</Link></li>
+                        <li><Link to="#"> Styles</Link></li>
+                        <li><Link to="#"> Colors</Link></li>
 
                     </ul>
                 </div>
 
-                <li className="toggledata" style={{display}}><a href="#">WordpressThemes</a></li>
-                <li className="toggledata" style={{display}}><a href="/blog">blog</a></li>
-                <li className="toggledata" style={{display}}><a href="#">💖EditorPicks</a></li>
+                <li className="toggledata" style={{display}}><Link to="#">WordpressThemes</Link></li>
+                <li className="toggledata" style={{display}}><Link to="/blog">blog</Link></li>
+                <li className="toggledata" style={{display}}><Link to="#">💖EditorPicks</Link></li>
             </ul>
             <ul className="thebuttoninsecondpart toggledata" style={{display}}>
-                <li><a href="#">
+                <li><Link to="#">
                         <button className="loginbutton">
 
                             <i className="icon ion-ios-person"></i>
                             login
 
                         </button>
-                    </a>
+                    </Link>
                 </li>
             </ul>
 

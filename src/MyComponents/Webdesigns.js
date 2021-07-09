@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Heart from './Heart'
 import Plus from './Plus'
 import Data from './Data'
+import { Link } from "react-router-dom";
 
 
 const Cardtemplate = (props) => {
@@ -10,7 +11,7 @@ const Cardtemplate = (props) => {
 
             <div className="designs  ">
                 <div className="barclass">
-                    <div><a href="#">{props.name}</a> </div>
+                    <div><Link to="#">{props.name}</Link> </div>
                     <div className="middlediv">
                         <Heart></Heart>
                         <Plus></Plus>
@@ -21,13 +22,13 @@ const Cardtemplate = (props) => {
                     </div>
                 </div>
                 <div className="imgclass">
-                    <a href={props.visitlink}>
+                    <Link to={props.visitlink}>
                         <span className="hover">
                             VISIT WEBSITE
                                     <i class="fas fa-sign-out-alt"></i>
                         </span>
                         <img src={props.imagesource} alt="image" />
-                    </a>
+                    </Link>
                 </div>
             </div>
 

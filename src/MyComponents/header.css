@@ -94,38 +94,6 @@ i.fas.fa-caret-down:before {
 }
 
 
-@media (max-width: 1215px)
-{
-    .listheader li a{
-        font-size: 1.8em;
-    }
-    .thelistinsecondpart li a ,.loginbutton {
-        font-size: .9em;
-    }
-}
-@media (max-width:940px)
-{
-    .header{
-        flex-direction: column;
-    }
-    .secondpart{
-        display: none;
-        flex-direction: column;
-    }
-    .thelistinsecondpart{
-        display: none;
-        flex-direction: column;
-    }
-    .thelistinsecondpart li {
-        padding: .4em 1.8em;
-    }
-    .thebuttoninsecondpart li{
-      padding-left: 1.8em;
-    }
-    .Navbar-toggle{
-        display: initial;
-    }
-}
 
 .trycss{
     display: flex;
@@ -167,3 +135,44 @@ i.fas.fa-caret-down:before {
     ;
 }
 
+@media (max-width: 1215px)
+{
+    .listheader li a{
+        font-size: 1.8em;
+    }
+    .thelistinsecondpart li a ,.loginbutton {
+        font-size: .9em;
+    }
+}
+@media (max-width:940px)
+{
+    .header{
+        flex-direction: column;
+    }
+    .secondpart{
+        display: none;
+        flex-direction: column;
+    }
+    .thelistinsecondpart{
+        display: none;
+        flex-direction: column;
+    }
+    .thelistinsecondpart li {
+        padding: .4em 1.8em;
+    }
+    .thebuttoninsecondpart li{
+      padding-left: 1.8em;
+    }
+    .Navbar-toggle{
+        display: initial;
+    }
+    .inspiration:hover +.dropdownmenu{
+        position: initial !important;
+        display: initial !important;
+    }
+    .dropdownmenu:hover{
+        position: initial !important;
+        display: initial !important;
+        
+    }
+}

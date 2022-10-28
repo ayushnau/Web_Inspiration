@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import image16 from "../../src/Images/image16.png"
+import image17 from "../../src/Images/image17.jpg"
 const Intro = () => {
     return (
         <>
@@ -12,8 +14,8 @@ const Intro = () => {
 
                 </div>
                 <div className="wrapperoftwocontainer">
-                    <Link to="#" className="firstimage"><img src="https://www.webdesign-inspiration.com/images/ads/elementor-200.png" alt="image" target="__new" /></Link>
-                    <Link to="#" className="secondimage"><img src="https://www.webdesign-inspiration.com/images/ads/divi-200.png" alt="image" /></Link>
+                    <Link to="#" className="firstimage"><img src={image16} alt="image" target="__new" /></Link>
+                    <Link to="#" className="secondimage"><img src={image17} alt="image" /></Link>
                 </div>
             </div>
             <div>

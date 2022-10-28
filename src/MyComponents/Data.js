@@ -4,7 +4,7 @@
         name:"COPE",
         date:"june 16, 2021",
         visitlink:"https://cope.gr/",
-        source:"https://img.webdesign-inspiration.com/v7/webdesign-inspiration.com/uploads/design/2019-05/cope-gr-52875.png?width=488"
+        source:"https://siteinspire.s3.us-east-1.amazonaws.com/screengrabs/images/000/015/784/small.jpg"
     },
     {
         uniqueid:2,
